@@ -3,81 +3,78 @@
 body{
 
     background: rgb(193, 219, 203);
-    
     font-family: roboto;
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 10px;
-
-    .header{
-        padding: 10px;  
-        text-align: center;
-    }
-
-    .text-block{
-        background: transparent;
-        padding: 10px; 
-        border-radius: 4px;
-        text-align: left;
-        font-size: 16px;
-
-    }
-    
-    .hobby{
-        background: rgb(124, 192, 150);
-        padding: 10px;
-        border-radius: 4px;  
-    }
-
-    .job{
-        background: rgb(124, 192, 150); 
-        padding: 6px; 
-        border-radius: 4px;
-
-    }
-
-    .job table th{
-        padding: 10px;
-        margin: 0;
-        border-top: 1px solid rgb(64, 78, 64);
-        border-left: 1px solid rgb(64, 78, 64);
-        
-    }
-
-    .job table th:last-child{
-        border-right: 1px solid rgb(64, 78, 64);
-    }
-
-    .job table td{ 
-        padding: 2px;
-        border-top:1px solid rgb(64, 78, 64);
-        border-left: 1px solid rgb(64, 78, 64);
-
-    }
-
-    .job table td:last-child{
-        border-right: 1px solid rgb(64, 78, 64);
-    }
-
-
-    .contact-form{
-        background: rgb(124, 192, 150); 
-        padding: 10px; 
-        border-radius: 4px;
-    }
-
-
+}
 
 .container{
-     max-width: 750px;
-     margin: auto;
-     padding-top: 30px;
+    max-width: initial;
+    margin: auto;
+    padding-top: 30px;
 } 
 
 .avatar{
-    width: 165px;
-    border-radius: 15px;
-    box-shadow: 4px 4px 14px rgba(0, 0, 0, .25);
+   width: 165px;
+   border-radius: 15px;
+   box-shadow: 4px 4px 14px rgba(0, 0, 0, .25);
+}
+
+.header {
+    position: relative;
+    background: rgb(210, 231, 218);
+    padding: 30px;
+    border-radius: 4px;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.text-block{
+    background: transparent;
+    padding: 10px; 
+    border-radius: 4px;
+    text-align: left;
+    font-size: 16px;
+
+}
+
+@media (max-width: 800px){
+    .header {
+        display: block;
+        text-align: center;
+    }
+}
+
+.hobby{
+    background: rgb(124, 192, 150);
+    padding: 10px;
+    border-radius: 4px;  
+}
+
+.job{
+    background: rgb(124, 192, 150); 
+    padding: 6px; 
+    border-radius: 4px;
+}
+
+.job table th{
+    padding: 10px;
+    margin: 0;
+        
+}
+
+.job table td{ 
+    padding: 2px;
+   
+}
+
+.contact-form{
+    background: rgb(124, 192, 150); 
+    padding: 10px; 
+    border-radius: 4px;
 }
 
 .btn {
@@ -156,19 +153,11 @@ a {
 }
 
 
-.header {
-    position: relative;
-    background: rgb(210, 231, 218);
-    padding: 30px;
-    border-radius: 4px;
-    display: flex;
-    margin-bottom: 20px;
-    margin-top: 15px;
-}
 
-.header .text-block {
-    display: inline;
-}
+
+/* .header .text-block { */
+    /* display: inline; */
+/* } */
 
 .links {
     position: absolute;
@@ -216,5 +205,4 @@ text-align: center;
     outline: none;
     font-family: inherit;
 
-}
 }
