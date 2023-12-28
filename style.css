@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+
+    background: rgb(193, 219, 203);
+    
+    font-family: roboto;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+
+    .header{
+        padding: 10px;  
+        text-align: center;
+    }
+
+    .text-block{
+        background: transparent;
+        padding: 10px; 
+        border-radius: 4px;
+        text-align: left;
+        font-size: 16px;
+
+    }
+    
+    .hobby{
+        background: rgb(124, 192, 150);
+        padding: 10px;
+        border-radius: 4px;  
+    }
+
+    .job{
+        background: rgb(124, 192, 150); 
+        padding: 6px; 
+        border-radius: 4px;
+
+    }
+
+    .job table th{
+        padding: 10px;
+        margin: 0;
+        border-top: 1px solid rgb(64, 78, 64);
+        border-left: 1px solid rgb(64, 78, 64);
+        
+    }
+
+    .job table th:last-child{
+        border-right: 1px solid rgb(64, 78, 64);
+    }
+
+    .job table td{ 
+        padding: 2px;
+        border-top:1px solid rgb(64, 78, 64);
+        border-left: 1px solid rgb(64, 78, 64);
+
+    }
+
+    .job table td:last-child{
+        border-right: 1px solid rgb(64, 78, 64);
+    }
+
+
+    .contact-form{
+        background: rgb(124, 192, 150); 
+        padding: 10px; 
+        border-radius: 4px;
+    }
+
+
+
+.container{
+     max-width: 750px;
+     margin: auto;
+     padding-top: 30px;
+} 
+
+.avatar{
+    width: 165px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, .25);
+}
+
+.btn {
+    padding: 15px 20px;
+    background: #111;
+    color:antiquewhite;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: orangered;
+    opacity: .8;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #111;
+}
+
+.links ul{
+    display:flex;
+    border-radius: 4px;
+    
+    background: transparent;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: fit-content;
+}
+
+.links ul li{
+    padding: 5px;
+    margin-right: 0;
+    border-radius: 4px;
+}
+
+.links ul li:hover {
+    background: rgb(64, 78, 64);
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    background: rgb(4, 90, 4);
+    margin-bottom: 10px;
+    /* margin-top: 10px; */
+    border-radius: 4px;
+    max-width: fit-content;
+}
+
+.navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    padding: 10px;
+    margin-right: 0;
+    border-radius: 4px;
+    
+}
+
+.navbar ul li:last-child{
+    border-left: 1px solid black;
+}
+
+.navbar ul li:hover {
+    background: rgb(64, 78, 64);
+}
+
+
+.header {
+    position: relative;
+    background: rgb(210, 231, 218);
+    padding: 30px;
+    border-radius: 4px;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.header .text-block {
+    display: inline;
+}
+
+.links {
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+}
+
+.form h2{
+text-align: center;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+      
+}
+
+.form-row .form-group {
+    /* display: inline-block; */
+    margin-right: 20px;
+    width: 50%;
+    /* width: calc(50% - 20px); */
+}
+
+.form-row .form-group:last-child{
+    margin-right: 0;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color:rgb(124, 192, 150);
+     
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+
+}
+}
